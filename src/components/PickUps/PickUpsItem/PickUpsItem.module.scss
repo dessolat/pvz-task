@@ -1,0 +1,15 @@
+.pickup {
+	cursor: pointer;
+	border: 1px solid gray;
+	text-align: left;
+	padding: 5px 10px;
+
+	+ .pickup {
+		margin-top: 10px;
+	}
+
+	&:hover {
+		border: 1px solid green;
+		background-color: #effaf1;
+	}
+}

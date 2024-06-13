@@ -1,0 +1,14 @@
+.wrapper {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	gap: 1rem;
+
+	> div {
+		flex: 1;;
+
+		&:last-child {
+			flex: 2;
+		}
+	}
+}
